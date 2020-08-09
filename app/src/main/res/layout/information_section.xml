@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/roboto"
+        android:text="Cennet Çadır Kampı"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <include layout="@layout/information_contact" />
+
+    <include layout="@layout/about_us" />
+
+
+</LinearLayout>

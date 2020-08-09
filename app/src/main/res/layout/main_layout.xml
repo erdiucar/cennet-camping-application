@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_icon_section" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:contentDescription="Cennet Camping"
+        android:scaleType="centerCrop"
+        android:src="@drawable/camp_usa" />
+
+    <include layout="@layout/information_section" />
+
+</LinearLayout>
